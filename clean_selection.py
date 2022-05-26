@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import gzip,csv,sqlite3
-from Bio.PDB import MMCIFParser
 
 # Read the list of structures
 filein=open("GPCR_structs.tsv")
@@ -21,10 +20,17 @@ filein.close()
 
 # Find the resolution of each structure
 resolution={}
-mmCIF_parser = MMCIFParser(QUIET=True)
 for pdb in pair:
-	structure_cif = mmCIF_parser.get_structure(pdb,"../GPCR_experimental_structures/structures/"+pdb+".cif")
-	resolution[pdb]=structure_cif.header["resolution"]
+	filein=open("../GPCR_experimental_structures/structures/"+pdb+".cif")
+	for row in filein:
+		if row.find("resolution")!=-1:
+			h=row.split(' ')
+			if h[0][-len("resolution"):]=="resolution" or h[0][-len("resolution_high"):]=="resolution_high":
+				k=1
+				while h[k]=='':
+					k+=1
+				resolution[pdb]=float(h[k])
+				break
 
 # Retrieve the number of contacts between each chain pair
 for pdb in pair:
