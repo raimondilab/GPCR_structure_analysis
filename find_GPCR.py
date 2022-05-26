@@ -41,10 +41,9 @@ for row in read_tsv:
 filein.close()
 
 #Write the output
-seen=set()
 fout=open("GPCR_structs.tsv","wt")
 write_tsv=csv.writer(fout, delimiter='\t')
-write_tsv.writerow(["PDB_ID	Receptor","Uniprot_AC","Receptor_Gene_name","Receptor_Uniprot_ID","Receptor_Chain","Gprotein_Uniprot_AC","Gprotein_Gene_name","Gprotein_Uniprot_ID","Gprotein_chain"])
+write_tsv.writerow(["PDB_ID","Receptor_Uniprot_AC","Receptor_Gene_name","Receptor_Uniprot_ID","Receptor_Chain","Gprotein_Uniprot_AC","Gprotein_Gene_name","Gprotein_Uniprot_ID","Gprotein_chain"])
 for el in pairs:
 	write_tsv.writerow(el)
 fout.close()
