@@ -53,11 +53,14 @@ for pdb in pair:
 		try:
 			el.append(contact[el[4]][el[8]])
 		except KeyError:
-			el.append(contact[el[8]][el[4]])
+			try:
+				el.append(contact[el[8]][el[4]])
+			except KeyError:
+				el.append(0)
 		
 # Find the coverage of each chain
 
-conn = sqlite3.connect("/home/fraimondi/BIOINFO1_DB/SIFTS/pdb2uniprot_mappings.db")
+conn = sqlite3.connect("/home/pmiglionico/pdb2uniprot_mappings.db")
 c = conn.cursor()
 for pdb in pair:
 	mapping=[]
