@@ -42,6 +42,7 @@ for row in read_tsv:
 		for el in Galpha[row[0]]:
 			pairs.append([el[0]]+[row[2]]+GPCR_names[row[2]]+[row[1]]+el[1:]) # Reorder the output entries to be coherent with the one used by Marin in older files
 filein.close()
+conn.close()
 
 #Write the output
 fout=open("GPCR_structs.tsv","wt")

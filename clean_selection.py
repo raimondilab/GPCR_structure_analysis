@@ -59,7 +59,6 @@ for pdb in pair:
 				el.append(0)
 		
 # Find the coverage of each chain
-
 conn = sqlite3.connect("/home/pmiglionico/pdb2uniprot_mappings.db")
 c = conn.cursor()
 for pdb in pair:
@@ -67,16 +66,29 @@ for pdb in pair:
 	for row in c.execute('select * from pdb2uniprot where pdbid = '+"'"+pdb+"'"):
 		mapping.append(row[1:3])
 	for el in pair[pdb]:
-		el+=[0,0,resolution[pdb]]
+		el+=[0,0]
 		for res in mapping:
 			ch=res[0].split('|')[0]
 			if ch==el[4] and res[1]==el[1]:
-				el[-3]+=1
-			if ch==el[8] and res[1]==el[5]:
 				el[-2]+=1
+			if ch==el[8] and res[1]==el[5]:
+				el[-1]+=1
+conn.close()
+
+# Find the length of each chain fo find the coverage ratio
+conn = sqlite3.connect("/home/fraimondi/BIOINFO1_DB/uniprot/uniprot_seq_ids_new.db")
+c = conn.cursor()
+for pdb in pair:
+	for el in pair[pdb]:
+		el+=[0,0,resolution[pdb]]
+		for line in c.execute('select * from uniprot where id_ac = '+"'"+ el[1]+"'"):
+			el[-3]=el[-5]/len(''.join(line[3].split('\n')[1:]))
+		for line in c.execute('select * from uniprot where id_ac = '+"'"+ el[5]+"'"):
+			el[-2]=el[-4]/len(''.join(line[3].split('\n')[1:]))
+conn.close()
 	
 # Write the output
-header+=["Contacts","Receptor_residues","Gprotein_residues","Resolution"]
+header+=["Contacts","Receptor_residues","Gprotein_residues","Receptor_coverage","Gprotein_coverage","Resolution"]
 fout=open("GPCR_structs_clean.tsv","wt")
 write_tsv=csv.writer(fout, delimiter='\t')
 write_tsv.writerow(header)
