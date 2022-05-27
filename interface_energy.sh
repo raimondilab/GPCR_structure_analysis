@@ -19,7 +19,7 @@ do
 	then
 		continue
 	fi
-    if ((n < 1))
+    if ((n < 52))
     then
 		/home/pmiglionico/rosetta_src_2021.16.61629_bundle/main/source/bin/relax.default.linuxgccrelease -s structures/$pdb\.cif -ignore_unrecognized_res -remember_unrecognized_res -out:path:pdb relaxed_struct -out:file:scorefile relaxed_struct/$pdb\_scorefile.sc -nstruct 1 &
 		n=$((n+1)) 
