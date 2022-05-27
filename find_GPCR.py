@@ -24,10 +24,11 @@ filein.close()
 
 filein=gzip.open("/home/fraimondi/BIOINFO1_DB/SIFTS/pdb_chain_pfam.tsv.gz",'rt')
 read_tsv=csv.reader(filein, delimiter="\t")
-GPCR={"PF00001","PF00002","PF00003","PF13853","PF01534","PF08395","PF02949"} # all Pfam entries corresponding to GPCRs
+GPCR={"PF00001","PF00002","PF00003","PF01534"} # all Pfam entries corresponding to GPCRs
 GPCR_names={}
 flag=0
 pairs=[]
+virus={"HHV8P","EBVB9","HCMVA","HCMVT","RCMVM","HHV6U","MUHVS","HHV7J","HCMVM","HHV6Z"}
 for row in read_tsv:
 	if flag==0: # skip first row
 		flag+=1
@@ -36,6 +37,8 @@ for row in read_tsv:
 		if row[2] not in GPCR_names:
 			for line in c.execute("SELECT * FROM uniac2gn WHERE uniac = '"+row[2]+"'"):
 				GPCR_names[row[2]]=[line[2].upper(),line[1]]
+		if GPCR_names[row[2]][1].split('_')[1] in virus:
+			continue
 		for el in Galpha[row[0]]:
 			pairs.append([el[0]]+[row[2]]+GPCR_names[row[2]]+[row[1]]+el[1:]) # Reorder the output entries to be coherent with the one used by Marin in older files
 filein.close()
