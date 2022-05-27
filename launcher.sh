@@ -5,4 +5,5 @@
 #PBS -N GPCR_update
 
 cd /home/pmiglionico/GPCR_structure_analysis
-bash run_update.sh
+bash update_list.sh
+bash update_stats.sh
