@@ -4,7 +4,12 @@ This repository contains the code needed to repeat the structural analysis of th
 
 To update the list of structures and run the analysis, run:
 ```
-bash run_update.sh
+bash update_list.sh
+```
+
+To repeat the analysis on the new list, run:
+```
+bash update_stats.sh
 ```
 
 This command is quite costly (about 6 hours of CPU time for each new structure), because it needs to relax the structures before computing the interface energy.
