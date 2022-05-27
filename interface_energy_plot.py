@@ -28,6 +28,7 @@ plt.plot([x1, x1, x2, x2], [y, y+h, y+h, y], lw=1.5, c=col)
 plt.text(0.5, y+h+2, "P-val=%.1E" % pval, ha='center', va='bottom', color='black')
 plt.ylim((ymin,y+18))
 plt.savefig('../GPCR_experimental_structures/figures/binding_energy_total.svg')
+plt.clf()
 
 # Select representative structures (choose the one with the best resolution, in case of parity the one with the highest sequence coverage)
 representative=df.sort_values(by=["Resolution","Gprotein_residues","Receptor_residues"],key=lambda x: 10**9*df["Resolution"]-df["Receptor_residues"]*df["Gprotein_residues"])
@@ -44,6 +45,7 @@ plt.plot([x1, x1, x2, x2], [y, y+h, y+h, y], lw=1.5, c=col)
 plt.text(0.5, y+h+2, "P-val=%.1E" % pval, ha='center', va='bottom', color='black')
 plt.ylim((ymin,y+18))
 plt.savefig('../GPCR_experimental_structures/figures/binding_energy_representative.svg')
+plt.clf()
 
 # Find the mean binding energy of all the structures of the same complex
 condensed=df
