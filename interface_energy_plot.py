@@ -21,7 +21,7 @@ print("Number of Gs structures: ",len(df[df["class"]=="Gs"]))
 sns.set(style="ticks",rc={'axes.facecolor':'white'})
 
 ax = sns.violinplot(x=df["class"],y=df["Interface_energy"])
-pval=sp.ttest_ind(df[df["class"]=="Gi/o"].Interface_energy,df[df["class"]=="Gs"].Interface_energy)[1]
+pval=sp.mannwhitneyu(df[df["class"]=="Gi/o"].Interface_energy,df[df["class"]=="Gs"].Interface_energy)[1]
 x1, x2 = 0, 1
 y, ymin,h, col = max(np.array(df["Interface_energy"])) + 15,min(np.array(df["Interface_energy"])) -20, 4, 'gray'
 plt.plot([x1, x1, x2, x2], [y, y+h, y+h, y], lw=1.5, c=col)
@@ -32,13 +32,13 @@ plt.clf()
 
 # Select representative structures (choose the one with the best resolution, in case of parity the one with the highest sequence coverage)
 representative=df.sort_values(by=["Resolution","Gprotein_residues","Receptor_residues"],key=lambda x: 10**9*df["Resolution"]-df["Receptor_residues"]*df["Gprotein_residues"])
-representative=representative.drop_duplicates(subset=['Receptor_Uniprot_AC', 'Gprotein_Uniprot_AC'])
+representative=representative.drop_duplicates(subset=['Receptor_Gene_name', 'Gprotein_Gene_name'])
 print("Number of Gi/o complexes: ",len(representative[representative["class"]=="Gi/o"]))
 print("Number of Gs complexes: ",len(representative[representative["class"]=="Gs"]))
 
 # Second violin plot
 ax = sns.violinplot(x=representative["class"],y=representative["Interface_energy"])
-pval=sp.ttest_ind(representative[representative["class"]=="Gi/o"].Interface_energy,representative[representative["class"]=="Gs"].Interface_energy)[1]
+pval=sp.mannwhitneyu(representative[representative["class"]=="Gi/o"].Interface_energy,representative[representative["class"]=="Gs"].Interface_energy)[1]
 x1, x2 = 0, 1
 y, ymin,h, col = max(np.array(representative["Interface_energy"])) + 15,min(np.array(representative["Interface_energy"])) -20, 4, 'gray'
 plt.plot([x1, x1, x2, x2], [y, y+h, y+h, y], lw=1.5, c=col)
@@ -49,12 +49,12 @@ plt.clf()
 
 # Find the mean binding energy of all the structures of the same complex
 condensed=df
-condensed['mean_energy'] = condensed.groupby(['Receptor_Uniprot_AC', 'Gprotein_Uniprot_AC'])['Interface_energy'].transform('mean')
-condensed=condensed.drop_duplicates(subset=['Receptor_Uniprot_AC', 'Gprotein_Uniprot_AC'])
+condensed['mean_energy'] = condensed.groupby(['Receptor_Gene_name', 'Gprotein_Gene_name'])['Interface_energy'].transform('mean')
+condensed=condensed.drop_duplicates(subset=['Receptor_Gene_name', 'Gprotein_Gene_name'])
 
 # Third violin plot
 ax = sns.violinplot(x=condensed["class"],y=condensed["mean_energy"])
-pval=sp.ttest_ind(condensed[condensed["class"]=="Gi/o"].mean_energy,condensed[condensed["class"]=="Gs"].mean_energy)[1]
+pval=sp.mannwhitneyu(condensed[condensed["class"]=="Gi/o"].mean_energy,condensed[condensed["class"]=="Gs"].mean_energy)[1]
 x1, x2 = 0, 1
 y, ymin,h, col = max(np.array(condensed["mean_energy"])) + 15,min(np.array(condensed["mean_energy"])) -20, 4, 'gray'
 plt.plot([x1, x1, x2, x2], [y, y+h, y+h, y], lw=1.5, c=col)

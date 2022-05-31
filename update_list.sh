@@ -4,7 +4,7 @@ source activate bioinfo
 
 # Find a list of pdb structures
 echo "Generating list of structures..."
-zgrep PF00503 /home/fraimondi/BIOINFO1_DB/SIFTS/pdb_chain_pfam.tsv.gz > Galpha_list.txt
+zgrep PF00503 /home/pmiglionico/pdb_chain_pfam.tsv.gz > Galpha_list.txt
 python3 find_GPCR.py
 rm Galpha_list.txt
 

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import gzip,csv,sqlite3
+import gzip,csv,sqlite3,sys
 
 # Read the list of structures
 filein=open("GPCR_structs.tsv")
@@ -34,7 +34,10 @@ for pdb in pair:
 
 # Retrieve the number of contacts between each chain pair
 for pdb in pair:
-	filein=open("/home/pmiglionico/pdb-mmCIF_CBcontacts_blast/"+pdb[1:3]+"/"+pdb+"_3dc.txt")
+	try:
+		filein=open("/home/pmiglionico/pdb-mmCIF_CBcontacts_blast/"+pdb[1:3]+"/"+pdb+"_3dc.txt")
+	except FileNotFoundError:
+		sys.exit("Error: please update contacts,"+pdb+" not found")
 	read_cont=csv.reader(filein, delimiter=" ")
 	contact={}
 	for row in read_cont:

@@ -22,7 +22,7 @@ filein.close()
 
 # Find GPCR containing chains
 
-filein=gzip.open("/home/fraimondi/BIOINFO1_DB/SIFTS/pdb_chain_pfam.tsv.gz",'rt')
+filein=gzip.open("/home/pmiglionico/pdb_chain_pfam.tsv.gz",'rt')
 read_tsv=csv.reader(filein, delimiter="\t")
 GPCR={"PF00001","PF00002","PF00003","PF01534"} # all Pfam entries corresponding to GPCRs
 GPCR_names={}
@@ -47,7 +47,7 @@ conn.close()
 #Write the output
 fout=open("GPCR_structs.tsv","wt")
 write_tsv=csv.writer(fout, delimiter='\t')
-write_tsv.writerow(["PDB_ID","Receptor_Uniprot_AC","Receptor_Gene_name","Receptor_Uniprot_ID","Receptor_Chain","Gprotein_Uniprot_AC","Gprotein_Gene_name","Gprotein_Uniprot_ID","Gprotein_chain"])
+write_tsv.writerow(["PDB_ID","Receptor_Uniprot_AC","Receptor_Gene_name","Receptor_Uniprot_ID","Receptor_Chain","Gprotein_Uniprot_AC","Gprotein_Gene_name","Gprotein_Uniprot_ID","Gprotein_chain","Receptor_organism","Gprotein_organism"])
 for el in pairs:
-	write_tsv.writerow(el)
+	write_tsv.writerow(el+[el[3].split('_')[1],el[7].split('_')[1]])
 fout.close()
