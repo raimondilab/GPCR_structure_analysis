@@ -98,6 +98,6 @@ write_tsv.writerow(header)
 for pdb in pair:
 	# Select the pair of chains with the highest number of contacts (to solve the problem of dimers
 	# The pair of Uniprot accessions with the highest coverage is used to name the two chains
-	pair[pdb].sort(key=lambda x:(x[-4],x[-3]*x[-2]))
+	pair[pdb].sort(key=lambda x:(x[-6],x[-3]*x[-2]))
 	write_tsv.writerow(pair[pdb][-1])
 fout.close()

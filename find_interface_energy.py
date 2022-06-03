@@ -12,7 +12,7 @@ f=0
 for row in read_tsv:
 	if f==0:
 		f+=1
-		write_tsv.writerow(row+['Interface_energy'])
+		write_tsv.writerow(row+['Interface_energy','dG/dSASA','dSASA'])
 		continue
 	try:
 		fileen=open("../GPCR_experimental_structures/relaxed_struct/"+row[0]+'_interface.tsv')
@@ -26,11 +26,16 @@ for row in read_tsv:
 		if flag==3:
 			k=0
 			h=-1
-			while k<6: #We take the 6th field: 
+			data=[0,0]
+			while k<9: #We take the 6th field: 
 				h+=1
 				if line[h]!='':
 					k+=1
-			write_tsv.writerow(row+[line[h]])
+					if k==6:
+						data[0]=line[h]
+					elif k==7:
+						data[1]=line[h]
+			write_tsv.writerow(row+data+[line[h]])
 			break
 	fileen.close()
 filein.close()
