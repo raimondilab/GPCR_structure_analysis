@@ -1,0 +1,1659 @@
+./cifs/3sn6.cif
+./cifs/6fuf.cif
+./cifs/6g79.cif
+./cifs/6gdg.cif
+./cifs/6k41.cif
+./cifs/6k42.cif
+./cifs/6kpf.cif
+./cifs/6kpg.cif
+./cifs/6lfo.cif
+./cifs/6li3.cif
+./cifs/6lml.cif
+./cifs/6nbf.cif
+./cifs/6oij.cif
+./cifs/6oik.cif
+./cifs/6os9.cif
+./cifs/6oya.cif
+./cifs/6p9x.cif
+./cifs/6p9y.cif
+./cifs/6pb1.cif
+./cifs/6qno.cif
+./cifs/6uva.cif
+./cifs/6vn7.cif
+./cifs/6wpw.cif
+./cifs/6wwz.cif
+./cifs/6wzg.cif
+./cifs/6x18.cif
+./cifs/6xbm.cif
+./cifs/7cfn.cif
+./cifs/7cmv.cif
+./cifs/7cx2.cif
+./cifs/7cz5.cif
+./cifs/7d68.cif
+./cifs/7d77.cif
+./cifs/7d7m.cif
+./cifs/7dfl.cif
+./cifs/7dh5.cif
+./cifs/7dty.cif
+./cifs/7dw9.cif
+./cifs/7e2y.cif
+./cifs/7e32.cif
+./cifs/7e33.cif
+./cifs/7e9h.cif
+./cifs/7eb2.cif
+./cifs/7ej8.cif
+./cifs/7ejx.cif
+./cifs/7euo.cif
+./cifs/7evw.cif
+./cifs/7ew1.cif
+./cifs/7ew3.cif
+./cifs/7exd.cif
+./cifs/7ezh.cif
+./cifs/7ezm.cif
+./cifs/7f16.cif
+./cifs/7f1s.cif
+./cifs/7f4h.cif
+./cifs/7f8v.cif
+./cifs/7f8w.cif
+./cifs/7jjo.cif
+./cifs/7jvp.cif
+./cifs/7jvr.cif
+./cifs/7ld3.cif
+./cifs/7mbx.cif
+./cifs/7mts.cif
+./cifs/7na7.cif
+./cifs/7p02.cif
+./cifs/7piu.cif
+./cifs/7s8m.cif
+./cifs/7sbf.cif
+./cifs/7sqo.cif
+./cifs/7t10.cif
+./cifs/7t6u.cif
+./cifs/7td0.cif
+./cifs/7td4.cif
+./cifs/7tuz.cif
+./cifs/7tyf.cif
+./cifs/7v69.cif
+./cifs/7vgx.cif
+./cifs/7vgy.cif
+./cifs/7vh0.cif
+./cifs/7vkt.cif
+./cifs/7vl9.cif
+./cifs/7vqx.cif
+./cifs/7vug.cif
+./cifs/7vuh.cif
+./cifs/7w2z.cif
+./cifs/7wq3.cif
+./cifs/7wu5.cif
+./cifs/7wuq.cif
+./cifs/7wvx.cif
+./cifs/7x9b.cif
+./cifs/7x9c.cif
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./contacts_cons.py", line 8, in <module>
+    pdb=input_file.split("/")[7].split(".")[0]
+IndexError: list index out of range
+ls: cannot access './cont_file/*cont.txt': No such file or directory
+Traceback (most recent call last):
+  File "./ann_cons.py", line 7, in <module>
+    input_file=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./comb_cons.py", line 33, in <module>
+    alld=pd.concat(alls.values(), ignore_index=True)
+  File "/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 294, in concat
+    op = _Concatenator(
+  File "/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 351, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+./comp_cons.py:21: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['unique_gpcr_contact'] = gs.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:22: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['unique_gpcr_contact_tm'] = gs.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:23: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['fraction_pair']=gs['unique_gpcr_contact']/len(set(gs['GPCR']))
+./comp_cons.py:25: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['fraction_pair_struct']=gs.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:26: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['num_cont_gprot'] = gs.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['num_cont_gpcr'] = gs.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:31: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['unique_gpcr_contact'] = gio.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:32: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['unique_gpcr_contact_tm'] = gio.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:33: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['fraction_pair']=gio['unique_gpcr_contact']/len(set(gio['GPCR']))
+./comp_cons.py:35: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['fraction_pair_struct']=gio.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['num_cont_gprot'] = gio.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:37: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['num_cont_gpcr'] = gio.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:65: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['unique_gpcr_contact'] = gq11.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:66: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['unique_gpcr_contact_tm'] = gq11.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:67: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['fraction_pair']=gq11['unique_gpcr_contact']/len(set(gq11['GPCR']))
+./comp_cons.py:69: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['fraction_pair_struct']=gq11.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:70: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['num_cont_gprot'] = gq11.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:71: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['num_cont_gpcr'] = gq11.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:127: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['unique_gpcr_contact'] = gs1.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['unique_gpcr_contact_tm'] = gs1.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:129: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['fraction_pair']=gs1['unique_gpcr_contact']/len(set(gs1['GPCR']))
+./comp_cons.py:131: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['fraction_pair_struct']=gs1.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:132: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['num_cont_gprot'] = gs1.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:133: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['num_cont_gpcr'] = gs1.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:136: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['unique_gpcr_contact'] = gio1.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['unique_gpcr_contact_tm'] = gio1.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:138: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['fraction_pair']=gio1['unique_gpcr_contact']/len(set(gio1['GPCR']))
+./comp_cons.py:140: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['fraction_pair_struct']=gio1.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:141: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['num_cont_gprot'] = gio1.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:142: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['num_cont_gpcr'] = gio1.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['unique_gpcr_contact'] = gq111.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['unique_gpcr_contact_tm'] = gq111.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['fraction_pair']=gq111['unique_gpcr_contact']/len(set(gq111['GPCR']))
+./comp_cons.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['fraction_pair_struct']=gq111.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['num_cont_gprot'] = gq111.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['num_cont_gpcr'] = gq111.groupby(['Structural'])['pair'].transform('nunique')
+./heatmaps_Gs_vs_Gio_cons.py:48: FutureWarning: The default value of regex will change from True to False in a future version.
+  df['BW']=df['BW'].str.replace('12.', 'ICL1.')
+./heatmaps_Gs_vs_Gio_cons.py:49: FutureWarning: The default value of regex will change from True to False in a future version.
+  df['BW']=df['BW'].str.replace('34.', 'ICL2.')
+./heatmaps_Gs_vs_Gio_cons.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['val']=1
+./heatmaps_Gs_vs_Gio_cons.py:62: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['val']=2
+./heatmaps_Gs_vs_Gio_cons.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['val']=3
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/statsmodels/stats/contingency_tables.py:698: RuntimeWarning: invalid value encountered in log
+  return np.dot(np.log(f), np.r_[1, -1, -1, 1])
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/statsmodels/stats/contingency_tables.py:715: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(np.sum(1 / self.table))
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2630: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  res = method(*args, **kwargs)
+./heatmaps_Gs_vs_Gio_cons.py:204: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp1['col']='darkorchid'
+./heatmaps_Gs_vs_Gio_cons.py:207: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp2['col']='deepskyblue'
+./heatmaps_Gs_vs_Gio_cons.py:208: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp3['col']='crimson'
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:1216: UserWarning: ``square=True`` ignored in clustermap
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:649: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:1216: UserWarning: ``square=True`` ignored in clustermap
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:649: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+./cifs/3sn6.cif
+./cifs/6fuf.cif
+./cifs/6g79.cif
+./cifs/6gdg.cif
+./cifs/6k41.cif
+./cifs/6k42.cif
+./cifs/6kpf.cif
+./cifs/6kpg.cif
+./cifs/6lfo.cif
+./cifs/6li3.cif
+./cifs/6lml.cif
+./cifs/6nbf.cif
+./cifs/6oij.cif
+./cifs/6oik.cif
+./cifs/6os9.cif
+./cifs/6oya.cif
+./cifs/6p9x.cif
+./cifs/6p9y.cif
+./cifs/6pb1.cif
+./cifs/6qno.cif
+./cifs/6uva.cif
+./cifs/6vn7.cif
+./cifs/6wpw.cif
+./cifs/6wwz.cif
+./cifs/6wzg.cif
+./cifs/6x18.cif
+./cifs/6xbm.cif
+./cifs/7cfn.cif
+./cifs/7cmv.cif
+./cifs/7cx2.cif
+./cifs/7cz5.cif
+./cifs/7d68.cif
+./cifs/7d77.cif
+./cifs/7d7m.cif
+./cifs/7dfl.cif
+./cifs/7dh5.cif
+./cifs/7dty.cif
+./cifs/7dw9.cif
+./cifs/7e2y.cif
+./cifs/7e32.cif
+./cifs/7e33.cif
+./cifs/7e9h.cif
+./cifs/7eb2.cif
+./cifs/7ej8.cif
+./cifs/7ejx.cif
+./cifs/7euo.cif
+./cifs/7evw.cif
+./cifs/7ew1.cif
+./cifs/7ew3.cif
+./cifs/7exd.cif
+./cifs/7ezh.cif
+./cifs/7ezm.cif
+./cifs/7f16.cif
+./cifs/7f1s.cif
+./cifs/7f4h.cif
+./cifs/7f8v.cif
+./cifs/7f8w.cif
+./cifs/7jjo.cif
+./cifs/7jvp.cif
+./cifs/7jvr.cif
+./cifs/7ld3.cif
+./cifs/7mbx.cif
+./cifs/7mts.cif
+./cifs/7na7.cif
+./cifs/7p02.cif
+./cifs/7piu.cif
+./cifs/7s8m.cif
+./cifs/7sbf.cif
+./cifs/7sqo.cif
+./cifs/7t10.cif
+./cifs/7t6u.cif
+./cifs/7td0.cif
+./cifs/7td4.cif
+./cifs/7tuz.cif
+./cifs/7tyf.cif
+./cifs/7v69.cif
+./cifs/7vgx.cif
+./cifs/7vgy.cif
+./cifs/7vh0.cif
+./cifs/7vkt.cif
+./cifs/7vl9.cif
+./cifs/7vqx.cif
+./cifs/7vug.cif
+./cifs/7vuh.cif
+./cifs/7w2z.cif
+./cifs/7wq3.cif
+./cifs/7wu5.cif
+./cifs/7wuq.cif
+./cifs/7wvx.cif
+./cifs/7x9b.cif
+./cifs/7x9c.cif
+ls: cannot access './cont_file/*cont.txt': No such file or directory
+Traceback (most recent call last):
+  File "./ann_cons.py", line 7, in <module>
+    input_file=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./comb_cons.py", line 33, in <module>
+    alld=pd.concat(alls.values(), ignore_index=True)
+  File "/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 294, in concat
+    op = _Concatenator(
+  File "/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 351, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+./comp_cons.py:21: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['unique_gpcr_contact'] = gs.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:22: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['unique_gpcr_contact_tm'] = gs.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:23: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['fraction_pair']=gs['unique_gpcr_contact']/len(set(gs['GPCR']))
+./comp_cons.py:25: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['fraction_pair_struct']=gs.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:26: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['num_cont_gprot'] = gs.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['num_cont_gpcr'] = gs.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:31: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['unique_gpcr_contact'] = gio.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:32: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['unique_gpcr_contact_tm'] = gio.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:33: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['fraction_pair']=gio['unique_gpcr_contact']/len(set(gio['GPCR']))
+./comp_cons.py:35: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['fraction_pair_struct']=gio.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['num_cont_gprot'] = gio.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:37: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['num_cont_gpcr'] = gio.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:65: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['unique_gpcr_contact'] = gq11.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:66: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['unique_gpcr_contact_tm'] = gq11.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:67: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['fraction_pair']=gq11['unique_gpcr_contact']/len(set(gq11['GPCR']))
+./comp_cons.py:69: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['fraction_pair_struct']=gq11.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:70: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['num_cont_gprot'] = gq11.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:71: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['num_cont_gpcr'] = gq11.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:127: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['unique_gpcr_contact'] = gs1.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['unique_gpcr_contact_tm'] = gs1.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:129: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['fraction_pair']=gs1['unique_gpcr_contact']/len(set(gs1['GPCR']))
+./comp_cons.py:131: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['fraction_pair_struct']=gs1.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:132: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['num_cont_gprot'] = gs1.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:133: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['num_cont_gpcr'] = gs1.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:136: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['unique_gpcr_contact'] = gio1.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['unique_gpcr_contact_tm'] = gio1.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:138: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['fraction_pair']=gio1['unique_gpcr_contact']/len(set(gio1['GPCR']))
+./comp_cons.py:140: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['fraction_pair_struct']=gio1.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:141: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['num_cont_gprot'] = gio1.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:142: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['num_cont_gpcr'] = gio1.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['unique_gpcr_contact'] = gq111.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['unique_gpcr_contact_tm'] = gq111.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['fraction_pair']=gq111['unique_gpcr_contact']/len(set(gq111['GPCR']))
+./comp_cons.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['fraction_pair_struct']=gq111.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['num_cont_gprot'] = gq111.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['num_cont_gpcr'] = gq111.groupby(['Structural'])['pair'].transform('nunique')
+./heatmaps_Gs_vs_Gio_cons.py:48: FutureWarning: The default value of regex will change from True to False in a future version.
+  df['BW']=df['BW'].str.replace('12.', 'ICL1.')
+./heatmaps_Gs_vs_Gio_cons.py:49: FutureWarning: The default value of regex will change from True to False in a future version.
+  df['BW']=df['BW'].str.replace('34.', 'ICL2.')
+./heatmaps_Gs_vs_Gio_cons.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['val']=1
+./heatmaps_Gs_vs_Gio_cons.py:62: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['val']=2
+./heatmaps_Gs_vs_Gio_cons.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['val']=3
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/statsmodels/stats/contingency_tables.py:698: RuntimeWarning: invalid value encountered in log
+  return np.dot(np.log(f), np.r_[1, -1, -1, 1])
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/statsmodels/stats/contingency_tables.py:715: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(np.sum(1 / self.table))
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2630: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  res = method(*args, **kwargs)
+./heatmaps_Gs_vs_Gio_cons.py:204: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp1['col']='darkorchid'
+./heatmaps_Gs_vs_Gio_cons.py:207: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp2['col']='deepskyblue'
+./heatmaps_Gs_vs_Gio_cons.py:208: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp3['col']='crimson'
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:1216: UserWarning: ``square=True`` ignored in clustermap
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:649: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:1216: UserWarning: ``square=True`` ignored in clustermap
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:649: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+./cifs/3sn6.cif
+./cifs/6fuf.cif
+./cifs/6g79.cif
+./cifs/6gdg.cif
+./cifs/6k41.cif
+./cifs/6k42.cif
+./cifs/6kpf.cif
+./cifs/6kpg.cif
+./cifs/6lfo.cif
+./cifs/6li3.cif
+./cifs/6lml.cif
+./cifs/6nbf.cif
+./cifs/6oij.cif
+./cifs/6oik.cif
+./cifs/6os9.cif
+./cifs/6oya.cif
+./cifs/6p9x.cif
+./cifs/6p9y.cif
+./cifs/6pb1.cif
+./cifs/6qno.cif
+./cifs/6uva.cif
+./cifs/6vn7.cif
+./cifs/6wpw.cif
+./cifs/6wwz.cif
+./cifs/6wzg.cif
+./cifs/6x18.cif
+./cifs/6xbm.cif
+./cifs/7cfn.cif
+./cifs/7cmv.cif
+./cifs/7cx2.cif
+./cifs/7cz5.cif
+./cifs/7d68.cif
+./cifs/7d77.cif
+./cifs/7d7m.cif
+./cifs/7dfl.cif
+./cifs/7dh5.cif
+./cifs/7dty.cif
+./cifs/7dw9.cif
+./cifs/7e2y.cif
+./cifs/7e32.cif
+./cifs/7e33.cif
+./cifs/7e9h.cif
+./cifs/7eb2.cif
+./cifs/7ej8.cif
+./cifs/7ejx.cif
+./cifs/7euo.cif
+./cifs/7evw.cif
+./cifs/7ew1.cif
+./cifs/7ew3.cif
+./cifs/7exd.cif
+./cifs/7ezh.cif
+./cifs/7ezm.cif
+./cifs/7f16.cif
+./cifs/7f1s.cif
+./cifs/7f4h.cif
+./cifs/7f8v.cif
+./cifs/7f8w.cif
+./cifs/7jjo.cif
+./cifs/7jvp.cif
+./cifs/7jvr.cif
+./cifs/7ld3.cif
+./cifs/7mbx.cif
+./cifs/7mts.cif
+./cifs/7na7.cif
+./cifs/7p02.cif
+./cifs/7piu.cif
+./cifs/7s8m.cif
+./cifs/7sbf.cif
+./cifs/7sqo.cif
+./cifs/7t10.cif
+./cifs/7t6u.cif
+./cifs/7td0.cif
+./cifs/7td4.cif
+./cifs/7tuz.cif
+./cifs/7tyf.cif
+./cifs/7v69.cif
+./cifs/7vgx.cif
+./cifs/7vgy.cif
+./cifs/7vh0.cif
+./cifs/7vkt.cif
+./cifs/7vl9.cif
+./cifs/7vqx.cif
+./cifs/7vug.cif
+./cifs/7vuh.cif
+./cifs/7w2z.cif
+./cifs/7wq3.cif
+./cifs/7wu5.cif
+./cifs/7wuq.cif
+./cifs/7wvx.cif
+./cifs/7x9b.cif
+./cifs/7x9c.cif
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./ann_cons.py:15: FutureWarning: The default value of regex will change from True to False in a future version.
+  gprot1['Pos2'] = gprot1['Pos2'].str.replace(r'\D', '')
+./comp_cons.py:21: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['unique_gpcr_contact'] = gs.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:22: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['unique_gpcr_contact_tm'] = gs.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:23: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['fraction_pair']=gs['unique_gpcr_contact']/len(set(gs['GPCR']))
+./comp_cons.py:25: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['fraction_pair_struct']=gs.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:26: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['num_cont_gprot'] = gs.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['num_cont_gpcr'] = gs.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:31: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['unique_gpcr_contact'] = gio.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:32: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['unique_gpcr_contact_tm'] = gio.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:33: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['fraction_pair']=gio['unique_gpcr_contact']/len(set(gio['GPCR']))
+./comp_cons.py:35: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['fraction_pair_struct']=gio.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['num_cont_gprot'] = gio.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:37: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['num_cont_gpcr'] = gio.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:65: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['unique_gpcr_contact'] = gq11.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:66: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['unique_gpcr_contact_tm'] = gq11.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:67: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['fraction_pair']=gq11['unique_gpcr_contact']/len(set(gq11['GPCR']))
+./comp_cons.py:69: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['fraction_pair_struct']=gq11.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:70: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['num_cont_gprot'] = gq11.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:71: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['num_cont_gpcr'] = gq11.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:127: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['unique_gpcr_contact'] = gs1.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['unique_gpcr_contact_tm'] = gs1.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:129: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['fraction_pair']=gs1['unique_gpcr_contact']/len(set(gs1['GPCR']))
+./comp_cons.py:131: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['fraction_pair_struct']=gs1.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:132: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['num_cont_gprot'] = gs1.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:133: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs1['num_cont_gpcr'] = gs1.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:136: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['unique_gpcr_contact'] = gio1.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:137: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['unique_gpcr_contact_tm'] = gio1.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:138: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['fraction_pair']=gio1['unique_gpcr_contact']/len(set(gio1['GPCR']))
+./comp_cons.py:140: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['fraction_pair_struct']=gio1.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:141: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['num_cont_gprot'] = gio1.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:142: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio1['num_cont_gpcr'] = gio1.groupby(['Structural'])['pair'].transform('nunique')
+./comp_cons.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['unique_gpcr_contact'] = gq111.groupby(['pair'])['GPCR'].transform('nunique')
+./comp_cons.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['unique_gpcr_contact_tm'] = gq111.groupby(['pair_struct'])['GPCR'].transform('nunique')
+./comp_cons.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['fraction_pair']=gq111['unique_gpcr_contact']/len(set(gq111['GPCR']))
+./comp_cons.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['fraction_pair_struct']=gq111.groupby(['pair_struct'])['fraction_pair'].transform('mean')
+./comp_cons.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['num_cont_gprot'] = gq111.groupby(['Gprot_struct'])['pair'].transform('nunique')
+./comp_cons.py:177: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq111['num_cont_gpcr'] = gq111.groupby(['Structural'])['pair'].transform('nunique')
+./heatmaps_Gs_vs_Gio_cons.py:48: FutureWarning: The default value of regex will change from True to False in a future version.
+  df['BW']=df['BW'].str.replace('12.', 'ICL1.')
+./heatmaps_Gs_vs_Gio_cons.py:49: FutureWarning: The default value of regex will change from True to False in a future version.
+  df['BW']=df['BW'].str.replace('34.', 'ICL2.')
+./heatmaps_Gs_vs_Gio_cons.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gs['val']=1
+./heatmaps_Gs_vs_Gio_cons.py:62: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gio['val']=2
+./heatmaps_Gs_vs_Gio_cons.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gq11['val']=3
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/statsmodels/stats/contingency_tables.py:698: RuntimeWarning: invalid value encountered in log
+  return np.dot(np.log(f), np.r_[1, -1, -1, 1])
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/statsmodels/stats/contingency_tables.py:715: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(np.sum(1 / self.table))
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2630: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  res = method(*args, **kwargs)
+./heatmaps_Gs_vs_Gio_cons.py:204: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp1['col']='darkorchid'
+./heatmaps_Gs_vs_Gio_cons.py:207: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp2['col']='deepskyblue'
+./heatmaps_Gs_vs_Gio_cons.py:208: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  gprotp3['col']='crimson'
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:1216: UserWarning: ``square=True`` ignored in clustermap
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:1216: UserWarning: ``square=True`` ignored in clustermap
+  warnings.warn(msg)
+/data/SW/anaconda3/envs/myenv/lib/python3.8/site-packages/seaborn/matrix.py:649: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
