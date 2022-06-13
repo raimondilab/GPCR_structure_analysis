@@ -10,6 +10,6 @@
  bioalign_gprot_cons_gpcr_all(all the common positions for gprot based on msa alignment and  all in gpcr based on pdb to uniprot mapping) 
  bioalign_gprot_cons_gpcr_all(all the common positions for gprot based on msa alignment and 12  common in all for gpcr(1.49,1.5,1.51,3.49,3.5,3.51,4.49,4.5,4.51,5.41,6.49,6.5) for all the structures based on pdb to uniprot mapping) 
  same in rmsd_consensus except consensus structures and added one more position 6.51
- 
+ afforementioned folders empty here check those folders in bioinfo1 /data/Users/marin/contact_analysis/GPCR_structure_analysis/contacts/rmsd(rmsd_consensus)
  excluded 5g53 cause it fails running the selection part
  excluded 7jjo,6p9x,6pb0 after rmsd (in plot) cause of too big values
