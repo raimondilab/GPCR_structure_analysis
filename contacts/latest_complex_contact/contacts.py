@@ -14,11 +14,12 @@ with open('./use_file/GPCR_structs_clean.tsv') as e:
         gpcr_uniprot=l[1]
         gpcr = l[2]
         gpcr_chain=l[4]
+        gprot_uniprot = l[5]
         gprot=l[6]
-        gprotid=l[5]
+        gprotid = l[7]
         gprot_chain=l[8].strip('\n')
         if pdb == pdb1:
-            ids = [gpcr,gpcr_uniprot,gprot,gprotid,gpcr_chain,gprot_chain]
+            ids = [gpcr, gpcr_uniprot, gprot, gprotid, gpcr_chain, gprot_chain, gprot_uniprot]
             output="./cont_file/"+pdb+"_"+gpcr+"_"+gprot+"_cont.txt"
             break
             
@@ -33,9 +34,9 @@ except IndexError:
 conn = sqlite3.connect("/data/DB/SIFTS/pdb2uniprot_mappings.db")
 c = conn.cursor()
 for line in c.execute('select * from pdb2uniprot where pdbid = '+"'"+ pdb+"'"):
-    if line[2] in [ids[1], ids[3]]:  # Check if the uniprot accession is the right one
+    if line[2] in [ids[1], ids[6]]:  # Check if the uniprot accession is the right one
         pdbpos = line[1].split('|')
-        if pdbpos[0] in ids[4:]:  # Check if the chain is the right one
+        if pdbpos[0] in ids[4:6]:  # Check if the chain is the right one
             pdb_uniprot[pdbpos[0]][pdbpos[1][3:]] = line[3][1:]
 
 unmapped = 0
