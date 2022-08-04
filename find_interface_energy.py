@@ -27,7 +27,7 @@ for row in read_tsv:
 			k=0
 			h=-1
 			data=[0,0]
-			while k<9: #We take the 6th field: 
+			while k<9: #We take the 6th, the 7th and the 9th field: 
 				h+=1
 				if line[h]!='':
 					k+=1
