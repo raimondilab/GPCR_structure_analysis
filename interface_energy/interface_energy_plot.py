@@ -64,7 +64,6 @@ representative = representative.drop_duplicates(subset=['Receptor_Gene_name', 'G
 print("Number of Gi/o complexes: ", len(representative[representative["class"] == "Gi/o"]))
 print("Number of Gs complexes: ", len(representative[representative["class"] == "Gs"]))
 draw_figure(representative, "binding_energy_representative.svg")
-representative.to_csv("GPCR_consensus.tsv", sep='\t', index=False)
 
 # Find the mean binding energy of all the structures of the same complex
 condensed = total
