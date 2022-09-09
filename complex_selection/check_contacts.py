@@ -1,11 +1,13 @@
-#!/data/SW/anaconda3/envs/myenv/bin/python
+#!/usr/bin/python3
 
 '''This module further cleans the list generated bu clean_selection.py removing the complexes
 in which not all contacts are mapped to the same Uniprot entry, this avoids chimeric complexes.
-Moreover it generates a file for each PDB containing the mapping of the contacts to uniprot sequence'''
+Moreover it generates a file for each PDB containing the mapping of the contacts to uniprot sequence.
+It also checks if an antibody is present in the structure and reports it in a new column in the table'''
 
 import csv
 import sqlite3
+import Bio.PDB
 
 # Connecting to the PDB-Uniprot residue-level mapping database
 conn = sqlite3.connect("/home/pmiglionico/pdb2uniprot_mappings.db")
@@ -25,7 +27,7 @@ def map_contact(ids):
 
     # Map the contacts to Uniprot positions
     unmapped = 0
-    out = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_"+ids[2]+"_"+ids[6]+"_cont.txt", "w")
+    out = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv", "w")
     write_cont = csv.writer(out, delimiter='\t')
     write_cont.writerow(['GPCR', 'Uniprot', 'Pos1', 'Gprotein', 'Gprotein_id', 'Pos2'])
     fin = open("/home/pmiglionico/pdb-mmCIF_CBcontacts_blast/"+ids[0][1:3]+"/"+ids[0]+"_3dc.txt")
@@ -43,7 +45,7 @@ def map_contact(ids):
             except KeyError:  # Avoids printing unmapped positions, but keeps track of the problem
                 unmapped += 1
                 continue
-            write_cont.writerow(ids[0:2]+[num1]+ids[6:7]+[num2])
+            write_cont.writerow([ids[2]]+[ids[1]]+[num1]+ids[6:8]+[num2])
         elif ids[4] == chain2 and ids[8] == chain1:
             try:  # Same as a few lines before
                 num1 = pdb_uniprot[chain1][num1]
@@ -58,20 +60,77 @@ def map_contact(ids):
         print(ids[0]+ " has "+ str(unmapped)+" unmapped contacts.")
         return False
     return True
+    
+def antibody(pdb):
+    
+    '''This function finds nanobodies in the cif files'''
+    
+    structdict = Bio.PDB.MMCIF2Dict.MMCIF2Dict("../GPCR_experimental_structures/structures/"+pdb+".cif")
+    for i in range(len(structdict['_entity.pdbx_description'])):
+        descr = str.lower(structdict['_entity.pdbx_description'][i])
+        # This list of if statements checks if in the entity desctiption there is the word "Antibody",
+        # "Nanobody", "Fab" or "scF", it also checks for some typos that can be found here and there
+        if descr.find('body') != -1:
+            return descr
+        elif descr.find('scf') != -1:
+            return descr
+        elif descr.find('fab') != -1:
+            return descr
+        elif descr.find('svf') != -1:
+            return descr
+        elif descr.find('nb') != -1:
+            return descr
+        elif descr.find('boy') != -1:
+            return descr
+    return "No"
 
+classification = {}
+filein = open("GPCRclassification.tsv")
+filein.readline()
+read_tsv = csv.reader(filein, delimiter="\t")
+for row in read_tsv:
+    classification[row[0]] = row[1]
+filein.close()
+promiscuous = {"RHO": "Yes",
+                "CALCRL": "No",
+                "GPR52": "No",
+                "SMO": "Yes",
+                "SCTR": "No",
+                "GABBR2": "No",
+                "GPR88": "No", 
+                "FZD7": "Yes", 
+                "PTH2R": "Yes", 
+                "MC1R": "No", 
+                "CCR1": "No", 
+                "VIPR2": "No", 
+                "GPR139": "Yes", 
+                "ADGRG2": "Yes", 
+                "NPY2R": "Yes", 
+                "NPY4R": "Yes", 
+                "CX3CR1": "No", 
+                "MRGPRD": "Yes"}
+filein = open("meta_encoded.txt")
+filein.readline()
+read_tsv = csv.reader(filein, delimiter="\t")
+for row in read_tsv:
+    if row[5].count('1') > 1:
+        promiscuous[row[0]] = "Yes"
+    else:
+        promiscuous[row[0]] = "No"
+
+# Keep only complexes for which all the contacts are mapped
 filein = open("GPCR_structs.tsv")
 read_tsv = csv.reader(filein, delimiter="\t")
 fout = open("GPCR_structs_clean.tsv", "wt")
 write_tsv = csv.writer(fout, delimiter='\t')
 flag = 0
-# Keep only compleces for which all the contacts are mapped
 for row in read_tsv:
     if flag == 0:
         flag += 1
-        write_tsv.writerow(row)
+        write_tsv.writerow(row+["Antibody", "Promiscuous", "Class"])#, "Fingerprint"])
         continue
     if map_contact(row):
-        write_tsv.writerow(row)
+        write_tsv.writerow(row+[antibody(row[0]), promiscuous[row[2]], classification[row[2]]])#, promiscuity[row[2]]])
 filein.close()
 fout.close()
 conn.close()
