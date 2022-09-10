@@ -1,3 +1,28 @@
+1.network_script
+contacts_cons.sh
+# Order of scripts to run
+3dcontacts.sh
+#Calculate contacts between GPCR and Gprotein in pdb structures
+contacts_cons.py
+#Map contacts to positions from sifts for each of pdb
+ann_cons.py
+#Map contacts to GPCRDb positions
+centrality.py
+comb_cons.py
+#Combine all contact files to one
+comp_cons.py
+#Calculate contact conservation grouped on gprotein family and calculate links and nodes for each gpcr gprotein network(all parameters for network)
+consensus_struct.py
+#Calculate which pdb structures are representative based on smallest resolution and better coverage of Gprotein sequence
+merged_cons.py
+#Creates final links and nodes file for cytoscape
+network_stat.py
+#Statistics of network (node degree)
+statistics.py
+#Statistics of pdb complexes(number,gprotein,family ,gpcr class)
+centrality.py
+#PLlots for centrality betweenes of networks
+
 2. heatmap_script contains following scripts
 barplot_cluster.py
 #Script that creates barplots of GPCR in different cluster and their gprotein coupling(UCM coupling)
@@ -15,3 +40,6 @@ logs.py
 # Plot distribution of log odds ratio for gpcr and gprotein 
 logs_pair.py
 # Plot distribution of log odds ratio for pair positions
+
+
+3.
