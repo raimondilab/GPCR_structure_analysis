@@ -1,4 +1,4 @@
-##1.network_script
+1.network_script
 contacts_cons.sh # Order of scripts to run
 3dcontacts.sh #Calculate contacts between GPCR and Gprotein in pdb structures
 contacts_cons.py #Map contacts to positions from sifts for each of pdb
@@ -21,5 +21,13 @@ heatmaps_Gs_vs_Gio_all1.py #Plots heatmaps of the contacts for all GPCRs from pd
 logs.py # Plot distribution of log odds ratio for gpcr and gprotein 
 logs_pair.py  #Plot distribution of log odds ratio for pair positions
 
-
-##3.rmsd_script contains scripts for calculation of rmsd
+3.rmsd_script contains scripts for calculation of rmsd
+rmsd.sh #scripts to run to create rmsd files to calculate all rmsd between possible pairs of structures
+Uniprot2PDBres_via_SIFTsxml.py #map uniprot and pdb positions via SIFT
+bio_align_fit_n_rmsd.py #calculate rmsd and rmsf of pair of structures
+extract_rmsd.py #combine all rmsd to one file
+extract_rmsf.py  #combine all rmsf to one file
+gen_bioalign.py #create a bash script with commands to run rmsd calculations for all pairs
+rmsd_plot.py #plot rmsds and calculate statistics
+rmsd_pos.py # calculate which gpcr positions and gprotein  consensus positions to use in to calculate rmsd (positions that show in each gpcr or gprotein of the structures)
+rmsf_plot.py #plot rmsf for each of gprotein family for structure that is best fitting for the gprotein family
