@@ -9,7 +9,7 @@ import sqlite3
 
 # Read the list of Galpha containing structures
 
-conn = sqlite3.connect("/home/pmiglionico/Uniac2GN.db")
+conn = sqlite3.connect("/projects/bioinformatics/DB/uniprot/Uniac2GN.db")
 c = conn.cursor()
 
 filein = open("Galpha_list.txt")
@@ -27,13 +27,13 @@ filein.close()
 
 # Find GPCR containing chains
 
-filein = gzip.open("/home/pmiglionico/pdb_chain_pfam.tsv.gz", 'rt')
+filein = gzip.open("/projects/bioinformatics/DB/SIFTS/pdb_chain_pfam.tsv.gz", 'rt')
 read_tsv = csv.reader(filein, delimiter="\t")
 GPCR = {"PF00001", "PF00002", "PF00003", "PF01534"}  # all Pfam entries corresponding to GPCRs
 GPCR_names = {}
 flag = 0
 pairs = []
-virus = {"HHV8P", "EBVB9", "HCMVA", "HCMVT", "RCMVM", "HHV6U", "MUHVS", "HHV7J", "HCMVM", "HHV6Z"}
+virus = {"HHV8P", "EBVB9", "HCMVA", "HCMVT", "RCMVM", "HHV6U", "MUHVS", "HHV7J", "HCMVM", "HHV6Z"} # Identifiers of a few viruses
 for row in read_tsv:
     if flag == 0: # skip first row
         flag = 1

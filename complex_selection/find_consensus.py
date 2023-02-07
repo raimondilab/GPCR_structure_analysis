@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-'''This module generates 3 figures for the interface analysis. One using all the structures, one using all
-representative structures and one averaging all the structures representing the same GPCR-Galpha pair'''
+'''This module the list of consensus non-redundant complex structures'''
 
 import pandas as pd
 

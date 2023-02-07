@@ -10,7 +10,7 @@ import sqlite3
 import Bio.PDB
 
 # Connecting to the PDB-Uniprot residue-level mapping database
-conn = sqlite3.connect("/home/pmiglionico/pdb2uniprot_mappings.db")
+conn = sqlite3.connect("/projects/bioinformatics/DB/SIFTS/pdb2uniprot_mappings.db")
 c = conn.cursor()
 
 def map_contact(ids):
@@ -30,7 +30,7 @@ def map_contact(ids):
     out = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv", "w")
     write_cont = csv.writer(out, delimiter='\t')
     write_cont.writerow(['GPCR', 'Uniprot', 'Pos1', 'Gprotein', 'Gprotein_id', 'Pos2'])
-    fin = open("/home/pmiglionico/pdb-mmCIF_CBcontacts_blast/"+ids[0][1:3]+"/"+ids[0]+"_3dc.txt")
+    fin = open("/projects/bioinformatics/DB/pdb-mmCIF_CBcontacts/"+ids[0][1:3]+"/"+ids[0]+"_3dc.txt")
     for line in fin:
         if line == '\n':
             break
@@ -108,7 +108,19 @@ promiscuous = {"RHO": "Yes",
                 "NPY2R": "Yes", 
                 "NPY4R": "Yes", 
                 "CX3CR1": "No", 
-                "MRGPRD": "Yes"}
+                "MRGPRD": "Yes",
+                "ADGRD1": "Yes",
+                "ADGRG5": "No",
+                "ADGRL3": "Yes",
+                "ADGRG1": "Yes",
+                "GHRHR": "No",
+                "ADGRF1": "Yes",
+                "ADGRG4": "No",
+                "HTR5A": "Yes",
+                "CCR3": "No",
+                "CCR2": "No",
+                "TSHR": "Yes",
+                "MC2R": "No"}
 filein = open("meta_encoded.txt")
 filein.readline()
 read_tsv = csv.reader(filein, delimiter="\t")

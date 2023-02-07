@@ -4,7 +4,7 @@ source activate bioinfo
 
 # Find a list of pdb structures
 echo "Generating list of structures..."
-zgrep PF00503 /home/pmiglionico/pdb_chain_pfam.tsv.gz > Galpha_list.txt
+zgrep PF00503 /projects/bioinformatics/DB/SIFTS/pdb_chain_pfam.tsv.gz > Galpha_list.txt
 python3 complex_selection/find_GPCR.py
 rm Galpha_list.txt
 
@@ -19,7 +19,7 @@ do
 	fi
 	if [ ! -f "../GPCR_experimental_structures/structures/${pdb}.cif" ]
 	then
-		cp /home/fraimondi/BIOINFO1_DB/pdb-mmCIF/${pdb:1:2}/$pdb\.cif.gz ../GPCR_experimental_structures/structures/
+		cp /projects/bioinformatics/DB/pdb-mmCIF/${pdb:1:2}/$pdb\.cif.gz ../GPCR_experimental_structures/structures/
 		gunzip ../GPCR_experimental_structures/structures/$pdb\.cif.gz
 	fi
 done < GPCR_structs.tsv

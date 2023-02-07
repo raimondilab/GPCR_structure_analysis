@@ -41,7 +41,7 @@ for pdb in pair:
 # Retrieve the number of contacts between each chain pair
 for pdb in pair:
     try:
-        filein = open("/home/pmiglionico/pdb-mmCIF_CBcontacts_blast/"+pdb[1:3]+"/"+pdb+"_3dc.txt")
+        filein = open("/projects/bioinformatics/DB/pdb-mmCIF_CBcontacts/"+pdb[1:3]+"/"+pdb+"_3dc.txt")
     except FileNotFoundError:
         sys.exit("Error: please update contacts,"+pdb+" not found")
     read_cont = csv.reader(filein, delimiter=" ")
@@ -69,7 +69,7 @@ for pdb in pair:
                 el.append(0)
 
 # Find the coverage of each chain
-conn = sqlite3.connect("/home/pmiglionico/pdb2uniprot_mappings.db")
+conn = sqlite3.connect("/projects/bioinformatics/DB/SIFTS/pdb2uniprot_mappings.db")
 c = conn.cursor()
 for pdb in pair:
     mapping = []
@@ -86,7 +86,7 @@ for pdb in pair:
 conn.close()
 
 # Find the length of each chain fo find the coverage ratio
-conn = sqlite3.connect("/home/fraimondi/BIOINFO1_DB/uniprot/uniprot_seq_ids_new.db")
+conn = sqlite3.connect("/projects/bioinformatics/DB/uniprot/uniprot_seq_ids_new.db")
 c = conn.cursor()
 for pdb in pair:
     for el in pair[pdb]:
