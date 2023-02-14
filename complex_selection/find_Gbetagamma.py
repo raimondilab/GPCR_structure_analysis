@@ -8,7 +8,7 @@ import sqlite3
 import sys
 import pandas as pd
 
-conn = sqlite3.connect("/home/pmiglionico/Uniac2GN.db")
+conn = sqlite3.connect("/projects/bioinformatics/DB/uniprot/Uniac2GN.db")
 c = conn.cursor()
 
 # Read the dataframe sys.argv[1]
@@ -21,7 +21,7 @@ for pdb in structs:
 
 G_beta_names = {}
 G_gamma_names = {}
-fin = open('/projects/bioinformatics/DB/SIFTS/pdb_interpro.tsv')
+fin = gzip.open('/projects/bioinformatics/DB/SIFTS/pdb_interpro.tsv.gz', 'rt')
 read_tsv = csv.reader(fin, delimiter="\t")
 for row in read_tsv:
     if row[0] in structs:

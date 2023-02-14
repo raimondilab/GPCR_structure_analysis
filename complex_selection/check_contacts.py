@@ -17,6 +17,14 @@ def map_contact(ids):
 
     '''This function checks the contacts for a single structure and generates the contact mapping file'''
 
+    # Check if ../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv already exists
+    try:
+        fin = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv")
+        fin.close()
+        return
+    except FileNotFoundError:
+        print("Mapping contacts for "+ids[0])
+        pass
     # Find the mapping using the database generated form SIFTS
     pdb_uniprot = {ids[4]:{}, ids[8]:{}}
     for line in c.execute('select * from pdb2uniprot where pdbid = '+"'"+ids[0]+"'"):
@@ -43,6 +51,7 @@ def map_contact(ids):
                 num1 = pdb_uniprot[chain1][num1]
                 num2 = pdb_uniprot[chain2][num2]
             except KeyError:  # Avoids printing unmapped positions, but keeps track of the problem
+                print(line.strip('\n'))
                 unmapped += 1
                 continue
             write_cont.writerow([ids[2]]+[ids[1]]+[num1]+ids[6:8]+[num2])
@@ -51,6 +60,7 @@ def map_contact(ids):
                 num1 = pdb_uniprot[chain1][num1]
                 num2 = pdb_uniprot[chain2][num2]
             except KeyError:
+                print(line.strip('\n'))
                 unmapped += 1
                 continue
             write_cont.writerow([ids[2]]+[ids[1]]+[num2]+ids[6:8]+[num1])
@@ -58,8 +68,7 @@ def map_contact(ids):
     out.close()
     if unmapped > 0:  # Reports the number of unmatched contacts if present
         print(ids[0]+ " has "+ str(unmapped)+" unmapped contacts.")
-        return False
-    return True
+    return
     
 def antibody(pdb):
     
@@ -120,7 +129,8 @@ promiscuous = {"RHO": "Yes",
                 "CCR3": "No",
                 "CCR2": "No",
                 "TSHR": "Yes",
-                "MC2R": "No"}
+                "MC2R": "No",
+                "ADGRG3": "Yes"}
 filein = open("meta_encoded.txt")
 filein.readline()
 read_tsv = csv.reader(filein, delimiter="\t")
@@ -129,6 +139,12 @@ for row in read_tsv:
         promiscuous[row[0]] = "Yes"
     else:
         promiscuous[row[0]] = "No"
+
+filein = open("excluded_pdb.txt")
+excluded = set()
+for line in filein:
+    excluded.add(line.strip('\n'))
+filein.close()
 
 # Keep only complexes for which all the contacts are mapped
 filein = open("GPCR_structs.tsv")
@@ -139,10 +155,11 @@ flag = 0
 for row in read_tsv:
     if flag == 0:
         flag += 1
-        write_tsv.writerow(row+["Antibody", "Promiscuous", "Class"])#, "Fingerprint"])
+        write_tsv.writerow(row+["Antibody", "Promiscuous", "Class"])
         continue
-    if map_contact(row):
-        write_tsv.writerow(row+[antibody(row[0]), promiscuous[row[2]], classification[row[2]]])#, promiscuity[row[2]]])
+    if row[0] not in excluded:
+        map_contact(row)
+        write_tsv.writerow(row+[antibody(row[0]), promiscuous[row[2]], classification[row[2]]])
 filein.close()
 fout.close()
 conn.close()

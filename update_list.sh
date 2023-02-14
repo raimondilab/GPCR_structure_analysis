@@ -31,4 +31,5 @@ mv GPCR_structs_clean.tsv GPCR_structs.tsv
 mkdir ../GPCR_experimental_structures/cont_file
 python3 complex_selection/check_contacts.py
 rm GPCR_structs.tsv
+python3 complex_selection/find_Gbetagamma.py GPCR_structs_clean.tsv GPCR_structs_clean.tsv
 python3 complex_selection/find_consensus.py

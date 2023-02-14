@@ -21,3 +21,4 @@ python3 interface_energy/find_interface_energy.py GPCR_structs_clean.tsv ../GPCR
 echo "Drawing figures..."
 mkdir ../GPCR_experimental_structures/figures
 python3 interface_energy/interface_energy_plot.py > ../GPCR_experimental_structures/stats.txt
+python3 interface_energy/interface_energy_plot_classA.py > ../GPCR_experimental_structures/stats_classA.txt
