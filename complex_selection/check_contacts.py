@@ -17,14 +17,6 @@ def map_contact(ids):
 
     '''This function checks the contacts for a single structure and generates the contact mapping file'''
 
-    # Check if ../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv already exists
-    try:
-        fin = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv")
-        fin.close()
-        return
-    except FileNotFoundError:
-        print("Mapping contacts for "+ids[0])
-        pass
     # Find the mapping using the database generated form SIFTS
     pdb_uniprot = {ids[4]:{}, ids[8]:{}}
     for line in c.execute('select * from pdb2uniprot where pdbid = '+"'"+ids[0]+"'"):
@@ -32,6 +24,24 @@ def map_contact(ids):
             pdbpos = line[1].split('|')
             if pdbpos[0] in [ids[4], ids[8]]:  # Check if the chain is the right one
                 pdb_uniprot[pdbpos[0]][pdbpos[1][3:]] = line[3][1:]
+
+    flag = 0
+    if ids[1] == "A0A0A0MTJ0": # Remap TSHR to the isoform present in SwissProt (there is only 1 mismatch)
+        ids[1] = "P16473"
+        ids[3] = "TSHR_HUMAN"
+    if ids[1] == "Q9HB45": # Remap GHRHR to the isoform present in SwissProt (there is a 64 positions shift)
+        ids[1] = "Q02643"
+        ids[3] = "GHRHR_HUMAN"
+        flag = 1
+
+    # Check if ../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv already exists
+    try:
+        fin = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv")
+        fin.close()
+        return ids
+    except FileNotFoundError:
+        print("Mapping contacts for "+ids[0])
+        pass
 
     # Map the contacts to Uniprot positions
     unmapped = 0
@@ -54,6 +64,8 @@ def map_contact(ids):
                 print(line.strip('\n'))
                 unmapped += 1
                 continue
+            if flag == 1:
+                num1 = int(num1) + 64
             write_cont.writerow([ids[2]]+[ids[1]]+[num1]+ids[6:8]+[num2])
         elif ids[4] == chain2 and ids[8] == chain1:
             try:  # Same as a few lines before
@@ -63,12 +75,14 @@ def map_contact(ids):
                 print(line.strip('\n'))
                 unmapped += 1
                 continue
+            if flag == 1:
+                num2 = int(num2) + 64
             write_cont.writerow([ids[2]]+[ids[1]]+[num2]+ids[6:8]+[num1])
     fin.close()
     out.close()
     if unmapped > 0:  # Reports the number of unmatched contacts if present
         print(ids[0]+ " has "+ str(unmapped)+" unmapped contacts.")
-    return
+    return ids
     
 def antibody(pdb):
     
@@ -158,7 +172,7 @@ for row in read_tsv:
         write_tsv.writerow(row+["Antibody", "Promiscuous", "Class"])
         continue
     if row[0] not in excluded:
-        map_contact(row)
+        row = map_contact(row)
         write_tsv.writerow(row+[antibody(row[0]), promiscuous[row[2]], classification[row[2]]])
 filein.close()
 fout.close()

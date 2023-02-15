@@ -39,8 +39,6 @@ for row in read_tsv:
         flag = 1
         continue
     if row[3] in GPCR and row[0] in Galpha:
-        if row[2] == "A0A0A0MTJ0": # Remap TSHR to the isoform present in SwissProt (there is only 1 mismatch)
-            row[2] = "P16473"
         if row[2] not in GPCR_names:
             for line in c.execute("SELECT * FROM uniac2gn WHERE uniac = '"+row[2]+"'"):
                 GPCR_names[row[2]] = [line[2].upper(), line[1]]
