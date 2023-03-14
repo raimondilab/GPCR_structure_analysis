@@ -45,7 +45,7 @@ for row in read_tsv:
         if GPCR_names[row[2]][1].split('_')[1] in virus:
             continue
         for el in Galpha[row[0]]:
-            # Reorder the output entries to make them coherent with older files made by Marin
+            # Reorder the output entries
             pairs.append([el[0]]+[row[2]]+GPCR_names[row[2]]+[row[1]]+el[1:])
 filein.close()
 conn.close()
