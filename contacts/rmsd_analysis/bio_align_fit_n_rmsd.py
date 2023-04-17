@@ -1,8 +1,11 @@
-#!/data/SW/anaconda3/envs/myenv/bin/python
+
+
+################Sequence-based structural alignment of two proteins and RMSD calculation
 
 """
 Sequence-based structural alignment of two proteins.
 """
+
 
 from __future__ import print_function, division
 
