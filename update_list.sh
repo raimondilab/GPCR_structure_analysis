@@ -4,9 +4,12 @@ source activate bioinfo
 
 # Find a list of pdb structures
 echo "Generating list of structures..."
+
+# Find all structures containing a G-protein alpha subunit (PF00503)
 zgrep PF00503 /projects/bioinformatics/DB/SIFTS/pdb_chain_pfam.tsv.gz > Galpha_list.txt
+
+# Find all structures containing a GPCR
 python3 complex_selection/find_GPCR.py
-rm Galpha_list.txt
 
 # Copy structures to working folder
 mkdir -p ../GPCR_experimental_structures/structures
@@ -28,8 +31,10 @@ done < GPCR_structs.tsv
 echo "Cleaning list of pairs..."
 python3 complex_selection/clean_selection.py
 mv GPCR_structs_clean.tsv GPCR_structs.tsv
+
+# Map the contacts between GPCR and Gprotein to the Uniprot sequence and check if the mapping is complete
 mkdir ../GPCR_experimental_structures/cont_file
 python3 complex_selection/check_contacts.py
-rm GPCR_structs.tsv
+
+# Find the other subunits of the Gprotein
 python3 complex_selection/find_Gbetagamma.py GPCR_structs_clean.tsv GPCR_structs_clean.tsv
-python3 complex_selection/find_consensus.py

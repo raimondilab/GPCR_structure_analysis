@@ -47,13 +47,14 @@ total = pd.read_csv("GPCR_structs_clean.tsv", sep='\t')
 
 total['class'] = total['Gprotein_Gene_name'].astype(str).str[:4]  # Divide Galphas by class
 total = total[total["class"].isin(("GNAS", "GNAI", "GNAO", "GNAT"))]  # Delete underrepresented classes
+total = total[total["Class"] == "classA"]
 mask = total['Gprotein_Gene_name'] == "GNAS"
 total.loc[mask, 'class'] = "Gs"
 mask = np.logical_not(mask)  # Merge GNAI and GNAO classes
 total.loc[mask, 'class'] = "Gi/o"
 print("Number of Gi/o structures: ", len(total[total["class"] == "Gi/o"]))
 print("Number of Gs structures: ", len(total[total["class"] == "Gs"]))
-draw_figure(total, "binding_energy_total.svg")
+draw_figure(total, "binding_energy_total_cA.svg")
 
 # Select representative structures: choose the one with the best resolution,
 # in case of parity the one with the highest sequence coverage.
@@ -62,7 +63,7 @@ representative = total.sort_values(by=["Resolution", "Gprotein_residues", "Recep
 representative = representative.drop_duplicates(subset=['Receptor_Gene_name', 'Gprotein_Gene_name'])
 print("Number of Gi/o complexes: ", len(representative[representative["class"] == "Gi/o"]))
 print("Number of Gs complexes: ", len(representative[representative["class"] == "Gs"]))
-draw_figure(representative, "binding_energy_representative.svg")
+draw_figure(representative, "binding_energy_representative_cA.svg")
 
 # Find the mean binding energy of all the structures of the same complex
 condensed = total
@@ -70,4 +71,4 @@ condensed['mean_energy'] = condensed.groupby(['Receptor_Gene_name', 'Gprotein_Ge
 condensed['mean_dG/dSASA'] = condensed.groupby(['Receptor_Gene_name', 'Gprotein_Gene_name'])['dG/dSASA'].transform('mean')
 condensed['mean_dSASA'] = condensed.groupby(['Receptor_Gene_name', 'Gprotein_Gene_name'])['dSASA'].transform('mean')
 condensed = condensed.drop_duplicates(subset=['Receptor_Gene_name', 'Gprotein_Gene_name'])
-draw_figure(condensed, "binding_energy_mean.svg", energy="mean_energy", ratio='mean_dG/dSASA', dSASA='mean_dSASA')
+draw_figure(condensed, "binding_energy_mean_cA.svg", energy="mean_energy", ratio='mean_dG/dSASA', dSASA='mean_dSASA')
