@@ -35,6 +35,7 @@ def map_contact(ids):
         flag = 1
 
     # Check if ../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv already exists
+    # Since we corrected some of them manually we want to avoid overwriting them if they exist
     try:
         fin = open("../GPCR_experimental_structures/cont_file/"+ids[0]+"_cont.tsv")
         fin.close()
@@ -114,46 +115,9 @@ read_tsv = csv.reader(filein, delimiter="\t")
 for row in read_tsv:
     classification[row[0]] = row[1]
 filein.close()
-promiscuous = {"RHO": "Yes",
-                "CALCRL": "No",
-                "GPR52": "No",
-                "SMO": "Yes",
-                "SCTR": "No",
-                "GABBR2": "No",
-                "GPR88": "No", 
-                "FZD7": "Yes", 
-                "PTH2R": "Yes", 
-                "MC1R": "No", 
-                "CCR1": "No", 
-                "VIPR2": "No", 
-                "GPR139": "Yes", 
-                "ADGRG2": "Yes", 
-                "NPY2R": "Yes", 
-                "NPY4R": "Yes", 
-                "CX3CR1": "No", 
-                "MRGPRD": "Yes",
-                "ADGRD1": "Yes",
-                "ADGRG5": "No",
-                "ADGRL3": "Yes",
-                "ADGRG1": "Yes",
-                "GHRHR": "No",
-                "ADGRF1": "Yes",
-                "ADGRG4": "No",
-                "HTR5A": "Yes",
-                "CCR3": "No",
-                "CCR2": "No",
-                "TSHR": "Yes",
-                "MC2R": "No",
-                "ADGRG3": "Yes"}
-filein = open("meta_encoded.txt")
-filein.readline()
-read_tsv = csv.reader(filein, delimiter="\t")
-for row in read_tsv:
-    if row[5].count('1') > 1:
-        promiscuous[row[0]] = "Yes"
-    else:
-        promiscuous[row[0]] = "No"
 
+# Read the list of PDBs to exclude, we compiled it manually
+# The list contains PDBs that have problems in the mapping to uniprot sequences at the interface
 filein = open("excluded_pdb.txt")
 excluded = set()
 for line in filein:
@@ -169,11 +133,11 @@ flag = 0
 for row in read_tsv:
     if flag == 0:
         flag += 1
-        write_tsv.writerow(row+["Antibody", "Promiscuous", "Class"])
+        write_tsv.writerow(row+["Antibody", "Class"])
         continue
     if row[0] not in excluded:
         row = map_contact(row)
-        write_tsv.writerow(row+[antibody(row[0]), promiscuous[row[2]], classification[row[2]]])
+        write_tsv.writerow(row+[antibody(row[0]), classification[row[2]]])
 filein.close()
 fout.close()
 conn.close()
