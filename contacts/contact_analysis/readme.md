@@ -27,5 +27,5 @@ This folder contains scripts to run contact analysis from the paper.
 ### heatmaps_Gs_vs_Gio_logodd.py
    Plot heatmaps with different filters of contact pairs or GPCR and G protein separately for Gs vs Gio structures and annotated with log odds ratio
 
-Folder use_file contains pickles with different annotations for the heatmaps. Folder ann_file contains each of the contact interface for experimental structures annotated with GPCRDB numbering and CGN numbering. 
+Folder ann_file contains each of the contact interface for experimental structures annotated with GPCRDB numbering and CGN numbering. 
 
