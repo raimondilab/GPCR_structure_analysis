@@ -1,4 +1,4 @@
-## Contact analysis
+# Contact analysis
 Contains scripts for running contact analysis
 # RMSD analysis
 Contains scripts for running rmsd analysis
