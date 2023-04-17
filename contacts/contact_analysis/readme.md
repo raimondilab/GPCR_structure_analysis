@@ -29,3 +29,5 @@ This folder contains scripts to run contact analysis from the paper.
 
 Folder ann_file contains each of the contact interface for experimental structures annotated with GPCRDB numbering and CGN numbering. 
 
+### new_heatmap_cont.py
+Heatmap of most conserved contacts in alphafold analysis for all Gprotein family and comparison of contacts with the ones in experimental structures
