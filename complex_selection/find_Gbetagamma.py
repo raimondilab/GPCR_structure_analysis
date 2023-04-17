@@ -19,6 +19,7 @@ G_beta_gamma = {}
 for pdb in structs:
     G_beta_gamma[pdb] = ["-"]*8
 
+# We use the InterPro entries IPR016346 and IPR036284 respectively for Gbeta and Ggamma
 G_beta_names = {}
 G_gamma_names = {}
 fin = gzip.open('/projects/bioinformatics/DB/SIFTS/pdb_interpro.tsv.gz', 'rt')
