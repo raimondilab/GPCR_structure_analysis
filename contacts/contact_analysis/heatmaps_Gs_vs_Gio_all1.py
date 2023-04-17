@@ -10,7 +10,7 @@ from sklearn.preprocessing import MaxAbsScaler
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import pickle
 
-#Plot heatmaps with different filters of contact pairs or GPCR and Gprotein separatley for all structures
+#####Plot heatmaps with different filters of contact pairs or GPCR and Gprotein separatley for all structures
 
 
 
