@@ -22,6 +22,8 @@ mv binding_energy.tsv GPCR_structs_clean.tsv
 
 # Find the best structure for each GPCR-Gprotein complex
 python3 complex_selection/find_consensus.py
+python3 complex_selection/isrepresentative.py GPCR_consensus.tsv GPCR_structs_clean.tsv GPCR_isrepresentative.tsv
+mv GPCR_isrepresentative.tsv GPCR_structs_clean.tsv
 
 # Draw figures
 echo "Drawing figures..."
