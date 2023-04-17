@@ -1,5 +1,4 @@
-#!/data/SW/anaconda3/envs/myenv/bin/python
-
+import pandas as pd
 import os,sys,operator, math,time
 import gzip, sqlite3
 import numpy as np
@@ -15,10 +14,10 @@ import glob, itertools
 #from Bio.PDB.Polypeptide import *
 #from difflib import SequenceMatcher
 from Bio.SeqUtils import seq1
-sys.path.insert(0, "/data/Users/francesco/code/")
 #from sequence_tools import ExtractFasta
 import xml.etree.ElementTree as ET
 from os.path import exists
+##################  Mapping pdb positions in structure to uniprot positions in sequence for experimental structures
 
 AA=['K','R','H','E','D','N','Q','Y','S','T','C','A','G','P','F','I','L','V','M','W']
 
@@ -68,16 +67,16 @@ def UnfoldSiftXml(inpxml):
 
 
 
-  
-
-###Getting residue level mappings to Uniprot from the SIFT XML for a given PDB 
-#for contact_file in glob.glob("*.gz_contacts.txt"):
-pdbid=sys.argv[1]
-xmlpath="/data/DB/SIFTS/ftp.ebi.ac.uk/pub/databases/msd/sifts/split_xml/%s/%s.xml.gz" % (pdbid[1:3], pdbid)
-if os.path.exists(xmlpath):
-  uni2pdb=UnfoldSiftXml(xmlpath)
-  for ac in uni2pdb.keys():
-    for res in uni2pdb[ac].keys():
-      chain=uni2pdb[ac][res][1]
-      pdbresnum=uni2pdb[ac][res][2]
-      print (pdbid+fs+chain+fs+pdbresnum+fs+ac+fs+res)
+df=pd.read_csv("./use_file/GPCR_structs_clean.tsv", comment="#", sep="\t")
+pdbs=df.PDB_ID.tolist()  
+with open('./use_file/uniprot_pdb.tsv','w') as f:
+    print('#PDBID\tCHAIN\tPDB_RES_NUM\tUNIPROT_AC\tUNIPROT_RES_NUM',file=f)
+    for pdbid in pdbs:
+        xmlpath="/projects/bioinformatics/DB/SIFTS/split_xml/%s/%s.xml.gz" % (pdbid[1:3], pdbid)
+        if os.path.exists(xmlpath):
+            uni2pdb=UnfoldSiftXml(xmlpath)
+            for ac in uni2pdb.keys():
+                for res in uni2pdb[ac].keys():
+                    chain=uni2pdb[ac][res][1]
+                    pdbresnum=uni2pdb[ac][res][2]
+                    print (pdbid+fs+chain+fs+pdbresnum+fs+ac+fs+res,file=f)
