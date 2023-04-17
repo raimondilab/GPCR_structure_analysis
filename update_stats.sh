@@ -14,7 +14,7 @@ do
 done
 
 echo "Relaxing structures and computing interface energies..."
-#qsub -Wblock=true interface_energy/interface_energy.sh
+qsub -Wblock=true interface_energy/interface_energy.sh
 
 # Add the interface energies to the table
 python3 interface_energy/find_interface_energy.py GPCR_structs_clean.tsv binding_energy.tsv
