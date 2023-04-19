@@ -13,3 +13,8 @@ bash update_stats.sh
 ```
 
 This command is quite costly (about 6 hours of CPU time for each new structure), because it needs to relax the structures before computing the interface energy.
+
+# pymol_chimera_sessions
+Folder containg for each figure a session either in pymol or chimerax
+# contacts
+Folder containg contact analysis and rmsd analysis scripts
