@@ -16,3 +16,5 @@ This command is quite costly (about 6 hours of CPU time for each new structure),
 
 # pymol_chimera_sessions
 Folder containg for each figure a session either in pymol or chimerax
+# contacts
+Folder containg contact analysis and rmsd analysis scripts
