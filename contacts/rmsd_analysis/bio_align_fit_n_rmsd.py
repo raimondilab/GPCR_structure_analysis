@@ -12,7 +12,7 @@ from __future__ import print_function, division
 import argparse
 import os, gzip
 import numpy as np
-from Bio.PDB import PDBParser, FastMMCIFParser, Superimposer, PDBIO, QCPSuperimposer
+from Bio.PDB import PDBParser, FastMMCIFParser, Superimposer, PDBIO
 from Bio.PDB.Polypeptide import is_aa
 
 from Bio import pairwise2
